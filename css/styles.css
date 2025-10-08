@@ -1,0 +1,114 @@
+body {
+    margin:0;
+}
+/* ==============================================================================================
+header
+================================================================================================== */
+header{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #38a54c;
+    height: 60px;
+    color: white;
+}
+.logo,.header-carrito{
+    width: 20%; 
+}
+#barraBusqueda{
+    height: 40px;
+    width: 30%;
+    border-radius: 5px;
+}
+.buscar-producto{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    gap: 20px;
+}
+#header-carrito{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#header-carrito p{
+    padding-right: 10px;
+}
+/*===========================================================================================================
+tarjetas productos
+============================================================================================================*/
+/**/
+.card-producto{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid ;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#contenedorFrutas{
+    display: flex;
+    flex-wrap: wrap;
+     gap: 20px;
+    /* border: 2px solid turquoise; */
+    justify-content: space-around;
+    /* height: 1000px; */
+    margin-top:20px; 
+    
+
+}
+
+.card-producto img{
+    width: 100px;
+    height: 120px;
+}
+/*==========================================================================================
+CARRITOOOO
+======================================================================================================*/
+#carrito{
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+ flex-direction: column;
+ align-items: center;
+ background-color: #f7f8fa;
+}
+#carrito ul{
+    
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0;
+    gap: 5px;
+}
+.bloque-item{
+     width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.boton-eliminar,.eliminar-carrito{
+    background-color: #f90020;
+    color: white;
+}
+.foteer-eliminar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
