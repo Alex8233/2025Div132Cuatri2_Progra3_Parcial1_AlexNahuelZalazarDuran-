@@ -88,7 +88,7 @@ function mostrarCarrito(){
         carrito.forEach((element,indice) => {
             cartaCarrito+= `<li class="bloque-item">
             <p class="nombre-item">${element.nombre} - $${element.precio}</p>
-            <button class="boton-eliminar" onclick="eliminarCarrito(${element.indice})">Eliminar</button>
+            <button class="boton-eliminar" onclick="eliminarCarrito(${indice})">Eliminar</button>
             </li>`;
         });
         guardarCarritoLocalStorage();
